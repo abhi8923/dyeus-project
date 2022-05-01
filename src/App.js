@@ -63,11 +63,11 @@ class App extends Component {
 
     return (
       <div
-        style={{
-          backgroundColor: styles.black(0.05),
-          minHeight: "100vh",
-          position: "relative"
-        }}
+        // style={{
+        //   backgroundColor: styles.black(0.05),
+        //   minHeight: "100vh",
+        //   position: "relative"
+        // }}
       >
         {styles.showSidebar ? (
           <Sidebar menuItems={menuItems} styles={styles} />

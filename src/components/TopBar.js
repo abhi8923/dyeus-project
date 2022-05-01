@@ -19,7 +19,7 @@ const TopBar = ({ styles }) => {
   return (
     <div style={topBarStyle}>
       <span>{`😺️`}</span>
-      App
+      Dyeus App
       <span>{`⚙️`}</span>
     </div>
   );

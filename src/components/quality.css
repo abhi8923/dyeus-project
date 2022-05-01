@@ -1,0 +1,42 @@
+.head2 {
+    top: 1764px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #1B1B50;
+}
+
+.head1 {
+    top: 1834px;
+
+    font-family: 'Reptile';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 134.8%;
+    /* or 43px */
+
+
+    color: #1B1B50;
+
+}
+.para {
+    width: 308px;
+    top: 1949px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 180%;
+    /* or 25px */
+
+
+    color: #1B1B50;
+}

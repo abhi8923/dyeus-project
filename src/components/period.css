@@ -1,0 +1,23 @@
+.head2 {
+    font-family: 'Reptile';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 134.8%;
+    /* or 43px */
+
+
+    color: #000000;
+}
+
+.para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 206.5%;
+    /* or 29px */
+
+
+    color: rgba(0, 0, 0, 0.8);
+}

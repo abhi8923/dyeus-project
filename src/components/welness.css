@@ -1,0 +1,58 @@
+.head2 {
+    top: 2708px;
+
+    font-family: 'Reptile';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 134.8%;
+    /* or 43px */
+
+
+    color: #000000;
+}
+
+.head1 {
+    top: 2708px;
+
+    font-family: 'Reptile';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 134.8%;
+    /* or 43px */
+
+
+    color: #000000;
+}
+
+.para {
+    top: 2815px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 206.5%;
+    /* or 29px */
+
+
+    color: rgba(0, 0, 0, 0.8);
+
+    
+}
+
+.head3 {
+    top: 3080px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.8);
+}

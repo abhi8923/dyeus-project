@@ -8,8 +8,9 @@
   },
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "reactstrap": "^9.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

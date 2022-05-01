@@ -4,7 +4,7 @@ import styles from "./quality.css";
 
 const quality = ({}) => {
     return (
-        <div>
+        <div style={{background: "linear-gradient(165.41deg, #D99EC9 0%, rgba(246, 240, 196, 0) 100%)"}}>
             
             <div style={{marginTop: "70px"}}>
                 <h2 className="head2">What makes us different?</h2>

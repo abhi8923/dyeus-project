@@ -7,6 +7,7 @@ import Period from "./period";
 import Consult from "./consult";
 import Period_box from "./period_box";
 import Description from "./description";
+import Contact from "./contact";
 
 const Content = ({ styles }) => {
   const { showSidebar } = styles;
@@ -36,6 +37,7 @@ const Content = ({ styles }) => {
       <Consult />
       <Period_box />
       <Description />
+      <Contact />
 
       {/*posts.map((post, i) => {
         return (

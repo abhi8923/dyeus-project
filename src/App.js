@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import TopBar from "./components/TopBar";
 import FooterMenu from "./components/FooterMenu";
 import Content from "./components/Content";
-import Sidebar from "./components/Sidebar";
 
 class App extends Component {
   constructor(props) {
@@ -38,28 +37,9 @@ class App extends Component {
       topBarHeight: 40,
       footerMenuHeight: 50,
       showFooterMenuText: windowWidth > 500,
-      showSidebar: windowWidth > 768,
       sidebarWidth: windowWidth < 1100 ? 50 : 150,
       sidebarCollapsed: windowWidth < 1100
     };
-
-    const menuItems = styles.showSidebar
-      ? [
-          { icon: `😀`, text: "Item 1" },
-          { icon: `😉`, text: "Item 2" },
-          { icon: `😎`, text: "Item 3" },
-          { icon: `🤔`, text: "Item 4" },
-          { icon: `😛`, text: "Item 5" },
-          { icon: `😺️`, text: "Profile" },
-          { icon: `⚙`, text: "Settings" }
-        ]
-      : [
-          { icon: `😀`, text: "Item 1" },
-          { icon: `😉`, text: "Item 2" },
-          { icon: `😎`, text: "Item 3" },
-          { icon: `🤔`, text: "Item 4" },
-          { icon: `😛`, text: "Item 5" }
-        ];
 
     return (
       <div
@@ -69,17 +49,11 @@ class App extends Component {
         //   position: "relative"
         // }}
       >
-        {styles.showSidebar ? (
-          <Sidebar menuItems={menuItems} styles={styles} />
-        ) : (
+       
           <TopBar styles={styles} />
-        )}
 
         <Content styles={styles} />
-
-        {!styles.showSidebar && (
-          <FooterMenu menuItems={menuItems} styles={styles} />
-        )}
+        
       </div>
     );
   }

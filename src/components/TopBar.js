@@ -1,4 +1,8 @@
 import React from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FiShoppingCart } from "react-icons/fi";
+import { IoIosNotificationsOutline } from "react-icons/io";
+
 
 const TopBar = ({ styles }) => {
   const topBarStyle = {
@@ -18,9 +22,9 @@ const TopBar = ({ styles }) => {
 
   return (
     <div style={topBarStyle}>
-      <span>{`😺️`}</span>
+      <span><GiHamburgerMenu/></span>
       Dyeus App
-      <span>{`⚙️`}</span>
+      <span><span style={{marginRight: "10px"}}><FiShoppingCart /></span><span style={{marginLeft: "10px"}}><IoIosNotificationsOutline/></span></span>
     </div>
   );
 };

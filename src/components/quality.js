@@ -1,5 +1,5 @@
-import React ,{ Fragment } from "react";
-import styles from "./quality.css";
+import React from "react";
+import "./quality.css";
 
 
 const quality = ({}) => {

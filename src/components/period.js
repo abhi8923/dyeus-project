@@ -1,4 +1,4 @@
-import React ,{ Fragment } from "react";
+import React from "react";
 import "./period.css";
 import CustomButton from "./button";
 import Calendar from "../assets/icons/calender.png"

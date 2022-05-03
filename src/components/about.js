@@ -1,5 +1,5 @@
-import React ,{ Fragment } from "react";
-import styles from "./about.css";
+import React from "react";
+import "./about.css";
 import TestTube from "../assets/icons/test_tube.png";
 import Drop from "../assets/icons/drop.png";
 import Star from "../assets/icons/star.png";

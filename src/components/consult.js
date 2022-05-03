@@ -1,4 +1,4 @@
-import React ,{ Fragment } from "react";
+import React from "react";
 import  "./consult.css";
 import CustomButton from "./button";
 import Doctor from "../assets/icons/Doctor.png";

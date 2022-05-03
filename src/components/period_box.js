@@ -1,4 +1,4 @@
-import React ,{ Fragment } from "react";
+import React from "react";
 import "./period_box.css";
 import PMS from "../assets/icons/pms.png"
 

@@ -1,5 +1,5 @@
-import React ,{ Fragment } from "react";
-import styles from "./description.css";
+import React from "react";
+import "./description.css";
 import button from "./button";
 
 const description = ({}) => {

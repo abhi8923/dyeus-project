@@ -1,4 +1,4 @@
-import React ,{ Fragment } from "react";
+import React from "react";
 import "./contact.css";
 import {AiOutlineRight} from "react-icons/ai";
 import { FiFacebook,FiTwitter } from "react-icons/fi";

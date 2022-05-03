@@ -4,7 +4,7 @@ import {AiOutlineRight} from "react-icons/ai";
 import { FiFacebook,FiTwitter } from "react-icons/fi";
 
 
-const contact = ({}) => {
+const contact = (importantThing = {}) => {
     return (
         <div style={{backgroundColor: "black", height:"40vh"}}>
             <div style={{marginLeft: "300px"}}>

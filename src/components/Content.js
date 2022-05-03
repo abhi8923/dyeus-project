@@ -5,7 +5,7 @@ import Welness from "./welness";
 import Track from "./track";
 import Period from "./period";
 import Consult from "./consult";
-import Period_box from "./period_box";
+import Periodbox from "./period_box";
 import Description from "./description";
 import Contact from "./contact";
 
@@ -35,18 +35,18 @@ const Content = ({ styles }) => {
       <Track />
       <Period />
       <Consult />
-      <Period_box />
+      <Periodbox />
       <Description />
       <Contact />
 
-      {/*posts.map((post, i) => {
+       {/* posts.map((post, i) => {
         return (
           <div key={i} style={{ marginBottom: 40 }}>
             <h2 style={{ marginBottom: 0, align: "center" }}>{post.title}</h2>
             <p>{post.summary}</p>
           </div>
         );
-      })*/}
+      })  */}
     </div>
   );
 };

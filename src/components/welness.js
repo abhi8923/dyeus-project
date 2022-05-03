@@ -2,7 +2,7 @@ import React from "react";
 import "./welness.css";
 import CustomButton from "./button"
 
-const welness = ({}) => {
+const welness = (importantThing = {}) => {
     return (
         <div>
             <div>

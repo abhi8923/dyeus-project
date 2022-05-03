@@ -6,7 +6,7 @@ import Star from "../assets/icons/star.png";
 import Phone from "../assets/icons/phone-call.png";
 
 
-const about = ({}) => {
+const about = (importantThing = {}) => {
     return (
         <div>
             <style>{'body { background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%); }'}</style>
@@ -18,13 +18,13 @@ const about = ({}) => {
             <div><h2 className="phylospy">{"Our Philosophy"}</h2></div>
             <div><h2 className="desc1">{"Sustainable wellness is a big-picture, inside out approach"}</h2></div>
             <div><h3 className="desc2">{"Diana is on a mission to create thoughtful, science-backed solutions for women who want to make informed decisions about their health and wellness. That’s why we’ve created an integrated ecosystem of: "}</h3></div>
-            <img className="tube" src={TestTube}/>
-            <img className="drop" src={Drop}/>
+            <img className="tube" src={TestTube} alt="test"/>
+            <img className="drop" src={Drop} alt="drop"/>
             <div>
                 <h4 className="desc3">Consciously formulated products that deliver feel-good results fast</h4>
-                <img className="imge" src={Star}/>
+                <img className="imge" src={Star} alt="star"/>
                 <h4 className="desc3">In-app mood and period tracking options that help you cultivate a deeper connection with your mind and body</h4>
-                <img className="imge" src={Phone}/>
+                <img className="imge" src={Phone} alt="phone"/>
                 <h4 className="desc3">In-app consultation portals that connect you with compassionate wellness experts</h4>
             </div>
             <div style={{marginTop: "70px"}}>
